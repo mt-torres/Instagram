@@ -1,0 +1,272 @@
+body{
+    background-color: #fafafa;  
+    font-family: 'Segoe UI';
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.phone{
+    width: 454px;
+    height: 618px;
+    background-image: url(../../images/phones.png);
+    align-self: center;
+}
+
+ .phone__image{
+    position: relative;
+    top: 100px;
+    left: 150px;
+    
+
+} 
+
+.phone__image__transition{
+    position: absolute;
+    opacity: 0;
+    animation-name: transition;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+   
+}
+@keyframes transition {
+    25%{
+        opacity: 1;
+    }
+    
+    50%{
+        opacity: 0;
+    }
+}
+
+.phone__image__transition:nth-child(1) {
+    opacity: 1;
+}
+.phone__image__transition:nth-child(2) {
+    animation-delay: 6s;
+}
+.phone__image__transition:nth-child(3) {
+    animation-delay: 12s;
+}
+.phone__image__transition:nth-child(4) {
+    animation-delay: 18s;
+}
+.phone__image__transition:nth-child(5) {
+    animation-delay: 24s;
+}
+
+
+.container__content{
+    display: flex;
+    background-color: #fafafa;
+    height: 777px;
+    color: blue;
+    margin-top: 3rem;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 606px;
+    align-items: center;
+    
+}
+
+.form__log{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #dbdbdb;
+    padding: 2rem;
+    background-color: #ffffff;
+
+}
+
+.Form__logo{
+    width: 175px;
+    margin-bottom: 1rem;
+
+
+}
+
+.form__title{
+    color:#8e8e8e ;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 10px ;
+    margin-bottom: 1rem;
+    
+}
+
+.facebook__button {
+    width: 266px;
+    color: #fafafa; 
+    background-color: #0095f6;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 5px 9px;
+    margin-bottom: 1rem;
+}
+.facebook__icon{
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    background-image: url(../../images/facebook.png);
+    height: 16px;
+    width: 16px;
+    background-position: -414px -300px;
+    top: 2px;
+    margin-right: 8px;
+}
+
+.form__or{
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem;
+    
+}
+
+.line{
+    position: relative;
+    background-color: #dbdbdb;
+    flex-grow: 2;
+    height: 2px;
+    top: .45rem;
+}
+.text{
+   text-transform: uppercase;
+   font-size: 13px;
+   margin: 0 18px;
+   color:#9a9a9a
+}
+
+
+
+
+.form__input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;  
+
+}
+
+.Form__Input__text{
+    margin-bottom: .5rem;
+    height: 37px;
+    border-radius: 4px;
+    border: 1px solid #e3e3e3;
+    background-color: #fafafa;
+    padding-left: .5rem;
+
+}
+
+.Form__Input__text::placeholder{
+    color:#8e8e8e;
+    font-size: 12px;
+}
+
+
+
+.Form__Input__text:last-child{
+    margin-bottom: 1rem;
+}
+
+.form__terms{
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #9a9a9a;
+    margin: 0 .5rem;
+    text-decoration: none;
+    
+}
+
+.form__terms__a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 16px;
+    color: #9a9a9a;
+}
+
+
+.connect{
+    display: flex;
+    border: 1px solid #dbdbdb;
+    width: 100%;
+    margin-top: 1rem;
+    justify-content: center;
+    background-color: #ffffff;
+   
+
+}
+
+.text__below{
+    font-size: 15px;
+    color: #262626;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.connect__link{
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.getApp__store{
+    display: flex;
+    justify-content: center;
+}
+.getApp__store__image{
+    width: calc(50% - 2rem);
+    cursor: pointer;
+}
+
+.getApp__store__image:first-child{
+    margin-right: .5rem;
+}
+
+.footer__item {
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.form__drop{
+    border:none;
+    background-color: #fafafa;  
+}
+
+.footer__language{
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 875px) {
+    .phone {
+        display: none;
+    }
+    .container__content{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer__item {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 875px) {
+    .container__content{
+        width: 935px;
+
+    }
+
+}
