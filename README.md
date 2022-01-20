@@ -1,7 +1,5 @@
 # Instagram 🤳 
 
-# Instagram
-
 ## :pencil:Description
 
 This project is the first clone I've built (for educational purpose only).
