@@ -1,10 +1,33 @@
 # Instagram 🤳 
 
-This project  is the first clone I've built (for educational purpose only). I have used visual studio code platform, css and HTML, also a little bit of my patience. However I loved working on  this.
+# Instagram
+
+## :pencil:Description
+
+This project is the first clone I've built (for educational purpose only).
+
+The activity is related to a DIO bootcamp - HTML Web Developer.
 
 
+## :dart: Goals
+To put bootcamp CSS classes into pratice.   
 
-Please, feel free to give me your advices, I'd love received them! 
+## :wrench: Tools
+- Visual Studio code
+- CSS
 
+  
+## :arrow_forward: Running the project
 
+1. Clone the project
 
+   ```
+   git clone https://github.com/mt-torres/Instagram
+   ```
+
+2. Open Index.html file.
+
+Or just acess by clicking [here!](https://mt-torres.github.io/Instagram/Index.html)
+
+## :construction: Enhancements:
+- Refactor and organize CSS code
